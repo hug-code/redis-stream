@@ -1,0 +1,24 @@
+{
+  "name": "hug-code/redis-stream",
+  "description": "基于redis stream进行消息队列",
+  "type": "library",
+  "homepage": "http://www.hug-code.cn/",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "无痕",
+      "email": "1762910894@qq.com",
+      "homepage": "http://www.hug-code.cn/"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "ext-redis": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "HugCode\\RedisStream\\": "src"
+    }
+  }
+}
